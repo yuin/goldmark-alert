@@ -1,10 +1,11 @@
 package alert_test
 
 import (
-	"alert"
 	"bytes"
 	"strings"
 	"testing"
+
+	alert "github.com/yuin/goldmark-alert"
 
 	"github.com/yuin/goldmark/v2/parser"
 	"github.com/yuin/goldmark/v2/renderer/html"
